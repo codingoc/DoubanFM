@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DoubanFM-Swift.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,19 @@
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+}
+
+- (IBAction)onLogin:(id)sender {
+    LoginController *c = [[LoginController alloc] init];
+    NSWindow *sheet = [NSWindow windowWithContentViewController:c];
+    [sheet setStyleMask:[sheet styleMask] &~ NSResizableWindowMask];
+    [self.window beginCriticalSheet:sheet completionHandler:^(NSModalResponse returnCode) {
+        if (returnCode == NSModalResponseOK) {
+            NSLog(@"Begin login: email[\"%@\"] | password[\"%@\"]", c.email, c.password);
+        }else if (returnCode == NSModalResponseCancel) {
+            NSLog(@"%@", @"Cancel Login");
+        }
+    }];
 }
 
 @end
