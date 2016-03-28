@@ -18,12 +18,20 @@ class LoginController: NSViewController {
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        if #available(OSX 10.10, *) {
+            super.viewDidLoad()
+        } else {
+            // Fallback on earlier versions
+        }
         // Do view setup here.
     }
     
     @IBAction func onBtn(sender: NSButton) {
         self.view.window?.makeFirstResponder(sender)
         self.view.window?.sheetParent?.endSheet(self.view.window!, returnCode: sender.tag)
+    }
+    
+    func beginLogin() {
+        
     }
 }

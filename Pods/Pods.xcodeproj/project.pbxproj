@@ -7,118 +7,218 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D4D7C23BADF82A5A26EC95366B4D750 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B9F0397C31AD16ED20A04A31767F1D /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DD0EB99AC80DCF4BCB200C78F416304 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E4DF314478B09D497AC282C415801 /* SystemConfiguration.framework */; };
-		0FCFBEBCDBC51550DFB2E6C1A3CBB6E9 /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F34228837D0789E45C01871036D5469 /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B0AEB924DDBC893B45E8FE830234876 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBD4122083B3A9FC7D8C57C94E33BBE /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		344DBB08140588E82FD801C848D6229C /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A88C5535B7B41AAE5AF46FA93AB130 /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		34EEE1889BBEC2A7E6AE751BD40662CE /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C49AA4B8477911682AEBA99E10A7FE /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		36AC674627100B0A550B0E3E26DE6952 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6576EBF69451CF9844FEEB95DB404C /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B7A71CE7D29C833487AE261CE843593 /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5BC4013C78608BADA185244C0D568F /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40898915848D07DDA66BE3DCEA9E6676 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB932112EB065C14FA9DF65647966449 /* StreamingKit-dummy.m */; };
-		4BA28A90E2A5F874AD1D2FA906A230DD /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE663B0781343F5B1C64A344AA436EB /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60A2B16A4AD3D73C5D1CE1DD5D741917 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EE290936E47B9E21D2C513D982819DB2 /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65E086FBBB80F609C7ED167AC1D554B3 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B9A4608A76176410C4720DE21A0E /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		67382151F032027997DAB73DC84472A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
-		792CC9760B61F1CC812B13D0C958686C /* Pods-DoubanFM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B25937075D4358818C3AFD8FC1D43B /* Pods-DoubanFM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		877E23245CFE6A28B79092235429483B /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC9E01CF08568B985FED4DD5A193381 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		90D12B565B4A881186725D4EE51415E7 /* Pods-DoubanFM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C27172B3F61131E962B57383FE7C666 /* Pods-DoubanFM-dummy.m */; };
-		994CA8B4A0C38FBD03CF8B4B49593213 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6729970A561E9E79D0A00647FD469F5 /* AudioToolbox.framework */; };
-		A7C1EA6CDF0A8DC7DECBAC3840A83B14 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1820536FBE2F2A469B4815FEF2138F9 /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AA959F1C256F825FBA9D924CB1BADC12 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79138790A5C8F0284A90EC92CC1F3BB2 /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B96511D5C6F29DA4BB95F9C4269B2035 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3D6C91EADFC882F537BE160FA2629 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C92E2A0E3256997CD7DE4ED9C0D2EB2F /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = EB11088A856D5AADF52DCA2489577430 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA5D83BB2C8A972D802078117A3EC723 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92A53FC0499CEC226A0CF487EB28257 /* CoreFoundation.framework */; };
-		CE06B9B727D0448C319112D0C8D69E1B /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C35E8837A8CE796877C75FFE87FF7E1 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEF7C6D111C64B94F9D26520532F7E1C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D48CCAF89B99FD15B7DED78B9B825E7 /* CFNetwork.framework */; };
-		DEFA1D2ADA3C2904C0122445ED5AFC1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
-		E4766E944BAF18A76798ACE6B0B8CCFE /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CE30F8C8BF24F886D00F998873DAC70B /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E957066016533071100EE825A8877A50 /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CF349AC563DEFDF339490C9F975C97 /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA247C1F11080C8A3DA10B6CECDC0853 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD11F8B9D5DFF074BA7C2A1D8D6CD017 /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDB83149729EC762E3A743B58A4D2EA4 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792FC62839D6511E1EFC1C1A7327779 /* AudioUnit.framework */; };
+		066ADB44E6FA8C50306CE4AE6F72D8BC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D48CCAF89B99FD15B7DED78B9B825E7 /* CFNetwork.framework */; };
+		086E52A2768690414D146D204D9FED33 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EDAF863756E393ADA530C837EA4CA /* StreamingKit-dummy.m */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D783D02B7A43D3DDD05F1DC4B48707 /* Error.swift */; };
+		11D958C90E2D8C13343826F377672CD5 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5A3449834EE72930573F49BA759EC4 /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE1F0094DDA824A1E28640C9328286 /* Timeline.swift */; };
+		2849D0FCB5CEF993C96E0652DDB00C53 /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC57609D842F233CA2EBE01184A50CA /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9568880AC2F479700533EAC0FF447B /* Pods-DoubanFM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B25937075D4358818C3AFD8FC1D43B /* Pods-DoubanFM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD1AB00C2FB942C712772B289323B14 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC75F8D47FF0A10E37981188434A68A /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7EA56BF266EDF39A4F31BAE49CFDD /* Validation.swift */; };
+		2DEDC029CEC5CE19506FFC33F384D1B8 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 172AAFDCD6C8509A336DE952341F05B3 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31495045432FB2A224A8BFF8C65B149D /* Pods-DoubanFM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C27172B3F61131E962B57383FE7C666 /* Pods-DoubanFM-dummy.m */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3991ADE5FD69A71DDBB779F763E20 /* NetworkReachabilityManager.swift */; };
+		3888DF353F03EF35D93BBCE43ADAC871 /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBA716F5E1EE232B26C00F878E68D2D /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7D8F9FD114D742BF9B35A3721C115D /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ABFB9D6C5C2FA78A326081C211004 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C3338455C9649A6B8904263A25EF11D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92A53FC0499CEC226A0CF487EB28257 /* CoreFoundation.framework */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9559F92C4219BECAB0010F4EB5C5BB /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D100D6E4BEC2C7B7BEF3A1FF32AB410 /* Manager.swift */; };
+		55477E968D89D5F1ADAD575EDC9B5D5C /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D55DA5364065826507C6C45C1BF52BE /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FACF2B1143A114168B849DE17505723 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308F14E570B3F7428D65D055A4EBC5A /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17AF643DBEBB99D2EFC334F28631A6 /* Response.swift */; };
+		6C6D723BB21E5FCF16E41D0F0FB9C3E7 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4827B5613C7FC1B18311876A5D8810 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76D3412645EF953965F05AC62BB48AB9 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC7989C1293A99A9AB6B9DD76F6CD4A /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81E99C2F8ED1AA40DC045450733FEB9 /* ServerTrustPolicy.swift */; };
+		8016C5B7C50BF8EAE89E389177917796 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EFC318C87506690F72FC2F46D0D999 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843EE7E22FBFF7522240CD03CF45A96B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
+		87ED4C1568617695F7F44BF035B27697 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792FC62839D6511E1EFC1C1A7327779 /* AudioUnit.framework */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB2DED7378FA272C30AB2B975FA2B5 /* Alamofire.swift */; };
+		92926631395D95F77234F93C5943B577 /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8D2C19779CBCCAE298ADFA2E9426EF /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 271074606699A10EF836CF7CD70561CB /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97364D8288CB8099FC82C811F9A6358D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB55CFC9983F8509CA5FBC15EC90034 /* SwiftyJSON.swift */; };
+		98F5A6CBBE2D6A006D493A1F31F71791 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 129F4CB464C51FC573EC001C6E5110E6 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C142FF1A2F3690E32D93B6DBF27386C /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF96DD4DCC41200F4FCC22426CF525 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2422A827B36B12CD33BF4CC95D0EE12 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC88B6F8D83E473E47A8CF2EA47F89E0 /* SwiftyJSON-dummy.m */; };
+		A4A111721168D8550B6C4375A88090D4 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3543152C6B34CF5A927F30B3D1451351 /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A500A3B9BB553AC7D3EEB2DC3E2A6935 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 174359FB95BEA4ACED6123A4FEA8113B /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0BC33E4429FECA7D497567FADC3BE /* Stream.swift */; };
+		B4CFDDB36A0176A12CC34AB22AF20F36 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270AE6F5D0186D5DD35927A239A78AF /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BBCE9D07B240C72EFF508C654695E48E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509086D34AA6A5B68F5609ED9479F739 /* Notifications.swift */; };
+		BF7C5F04DBF76A8ACBB1E48A7F9F3687 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8D00B08D389E467A1FCA1AD1F0DF /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84B4834CF1691AA969853EBFA3CC27 /* ParameterEncoding.swift */; };
+		C1246DDEC9C6ADF2C22019C1DC472B3E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6729970A561E9E79D0A00647FD469F5 /* AudioToolbox.framework */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D107091C6B6982D0B786BE006271F9 /* MultipartFormData.swift */; };
+		CDF582B7632DB25CBDBCA4B1479C370A /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9CB296040C3B9928CFB43924FDEC0 /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA169F7223BB7F0D4F1E5E173A3EFF12 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DC79238A3B4B924F5CFF96374EDBE2 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2ED27E179F095B44CEBEDC9369E9E7 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 434D5919AE34F0DFE4886F6C8083A6AE /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB172CEA328979ACAE2733A6C2170175 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E4DF314478B09D497AC282C415801 /* SystemConfiguration.framework */; };
+		EC326E3F51E48C7C141C3D6256CFB3F1 /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E9598793B8FF3FE69816398B45F0771F /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91659349D15C448CB007BC19F3A641D /* Request.swift */; };
+		F3F3FD9096F43B73CBB52EF0E1CCF73E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
+		FB2DB3F8AD50FBB24B4C1B431F432465 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BF904ED88FCB55A976E3ECE03572251 /* PBXContainerItemProxy */ = {
+		08F32AE206BACF653B65E9F713E000B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA78113AF4A28917A6E2F3CF72E3ECDA;
+			remoteGlobalIDString = BB61097019B58230CC93576ADADECD83;
 			remoteInfo = StreamingKit;
+		};
+		8D0A96CEA628E7156CBECE3923554B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D57634A23B5FEEAC8A8CFE4A0C4ED0;
+			remoteInfo = SwiftyJSON;
+		};
+		D00091B70050457606B69E9C16352A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B3B9A4608A76176410C4720DE21A0E /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
-		0875F777F58E7EB2EEAB178452DD17CA /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
-		0E59F032E4C4D4102586354D4B1BFAEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F34228837D0789E45C01871036D5469 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		04A7EA56BF266EDF39A4F31BAE49CFDD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		05D107091C6B6982D0B786BE006271F9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		0C4AB90F38977BB70DEA7188A9796652 /* Pods_DoubanFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoubanFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE9CEFBD740CE262522670663B2E14B /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StreamingKit.modulemap; sourceTree = "<group>"; };
+		0D100D6E4BEC2C7B7BEF3A1FF32AB410 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		129F4CB464C51FC573EC001C6E5110E6 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		172AAFDCD6C8509A336DE952341F05B3 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		174359FB95BEA4ACED6123A4FEA8113B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		18B25937075D4358818C3AFD8FC1D43B /* Pods-DoubanFM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoubanFM-umbrella.h"; sourceTree = "<group>"; };
-		1DD3D6C91EADFC882F537BE160FA2629 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
-		1FE663B0781343F5B1C64A344AA436EB /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
-		2C5BC4013C78608BADA185244C0D568F /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
+		20A3F5C84937E76B56923F9081201723 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DDC3759919D7C764053F96B11CA597 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		25D0BC33E4429FECA7D497567FADC3BE /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		271074606699A10EF836CF7CD70561CB /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		2C15E4979C4CD856F640462D85F2C14D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		2FA9CB296040C3B9928CFB43924FDEC0 /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		3543152C6B34CF5A927F30B3D1451351 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
+		434D5919AE34F0DFE4886F6C8083A6AE /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
 		4806E61BD116A8EE1374E2F686B81E3C /* Pods-DoubanFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoubanFM.release.xcconfig"; sourceTree = "<group>"; };
+		4AC7989C1293A99A9AB6B9DD76F6CD4A /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		4B8D2C19779CBCCAE298ADFA2E9426EF /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
 		4C27172B3F61131E962B57383FE7C666 /* Pods-DoubanFM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoubanFM-dummy.m"; sourceTree = "<group>"; };
+		4FACF2B1143A114168B849DE17505723 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		509086D34AA6A5B68F5609ED9479F739 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		513D19CF235D95B9716883FBDDAF2F0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5435E61FCA29847F3DF3748BA5F46E4F /* Pods-DoubanFM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoubanFM-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54C49AA4B8477911682AEBA99E10A7FE /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		55EFC318C87506690F72FC2F46D0D999 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
+		56F1FF26546B94D74526E6C35C42553E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A27C1C251F98697B779BF19D9B0401 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		59332E40BF4B1DABA7F576296E92E568 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C35E8837A8CE796877C75FFE87FF7E1 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
-		5CC9E01CF08568B985FED4DD5A193381 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		5B5A3449834EE72930573F49BA759EC4 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		5D55DA5364065826507C6C45C1BF52BE /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		6270AE6F5D0186D5DD35927A239A78AF /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
 		64F6E6855C7F2A2081CE41E756D29097 /* Pods-DoubanFM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoubanFM-resources.sh"; sourceTree = "<group>"; };
 		68BFBB866CE117DD8B5D3507E467889C /* Pods-DoubanFM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoubanFM-acknowledgements.plist"; sourceTree = "<group>"; };
-		70A97DAD40E958B1F5E22A168BDBB331 /* Pods_DoubanFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoubanFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76CF349AC563DEFDF339490C9F975C97 /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
-		79138790A5C8F0284A90EC92CC1F3BB2 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
-		7FBD4122083B3A9FC7D8C57C94E33BBE /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		68D783D02B7A43D3DDD05F1DC4B48707 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		69FB212F82E5C3C31C0A48CDA5896279 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C415DB0B3DC8CAEC28A25DB11418C7 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		7A4827B5613C7FC1B18311876A5D8810 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		7CC75F8D47FF0A10E37981188434A68A /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
 		800E4DF314478B09D497AC282C415801 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		81DC79238A3B4B924F5CFF96374EDBE2 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
+		820CD70D952EA9AB8542645711F99753 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		8308F14E570B3F7428D65D055A4EBC5A /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		83279E5719E63534A876222BCFD796F5 /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
 		8D48CCAF89B99FD15B7DED78B9B825E7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		A8A88C5535B7B41AAE5AF46FA93AB130 /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
-		B1820536FBE2F2A469B4815FEF2138F9 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		A500A3B9BB553AC7D3EEB2DC3E2A6935 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		A70F8D00B08D389E467A1FCA1AD1F0DF /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		A91659349D15C448CB007BC19F3A641D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		AB84B4834CF1691AA969853EBFA3CC27 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		AC88B6F8D83E473E47A8CF2EA47F89E0 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		B3A27625D2B9F55EBDB9E86628201CF2 /* Pods-DoubanFM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DoubanFM.modulemap"; sourceTree = "<group>"; };
+		B54ABFB9D6C5C2FA78A326081C211004 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C05CD62E150CFB77A335717364AF33D3 /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
+		BCA97103AD323C8ABD52383277B23625 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC57609D842F233CA2EBE01184A50CA /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
+		BDFE1F0094DDA824A1E28640C9328286 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C68EDAF863756E393ADA530C837EA4CA /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
+		C7089F2C37708895919D61BBED4E55CD /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
+		C81E99C2F8ED1AA40DC045450733FEB9 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		C92A53FC0499CEC226A0CF487EB28257 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB932112EB065C14FA9DF65647966449 /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
-		CE30F8C8BF24F886D00F998873DAC70B /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
-		D2B9F0397C31AD16ED20A04A31767F1D /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
+		CCBDA55A664230671A65E52729742DCA /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CE9559F92C4219BECAB0010F4EB5C5BB /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D10EE208A14F0C1D6D56BD1C5F5B7701 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		D4D82B014A21CE5457C3F35E2F16F3BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6729970A561E9E79D0A00647FD469F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		D6CB2DED7378FA272C30AB2B975FA2B5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		DB9E3F7D7C48372E2B311AB20B2B10E7 /* Pods-DoubanFM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoubanFM-frameworks.sh"; sourceTree = "<group>"; };
-		DE6576EBF69451CF9844FEEB95DB404C /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
+		DD17AF643DBEBB99D2EFC334F28631A6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		E54C30EE1D3FD6E0B1AEAB404519C7F9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E792FC62839D6511E1EFC1C1A7327779 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioUnit.framework; sourceTree = DEVELOPER_DIR; };
-		EB11088A856D5AADF52DCA2489577430 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		E8CF96DD4DCC41200F4FCC22426CF525 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
+		E9598793B8FF3FE69816398B45F0771F /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		EAF3991ADE5FD69A71DDBB779F763E20 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		EBBA716F5E1EE232B26C00F878E68D2D /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
 		EC39B53826B64CB5739E5268E2F7EFDB /* Pods-DoubanFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoubanFM.debug.xcconfig"; sourceTree = "<group>"; };
-		EE290936E47B9E21D2C513D982819DB2 /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
-		F0355DCFEF98D602139A2E6D30185195 /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StreamingKit.modulemap; sourceTree = "<group>"; };
-		FD11F8B9D5DFF074BA7C2A1D8D6CD017 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		FCB55CFC9983F8509CA5FBC15EC90034 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CCD241EC2B41D9F55D27FF1ACD0976F /* Frameworks */ = {
+		5CFB1524D2694C6FC4426478D5F70A37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994CA8B4A0C38FBD03CF8B4B49593213 /* AudioToolbox.framework in Frameworks */,
-				EDB83149729EC762E3A743B58A4D2EA4 /* AudioUnit.framework in Frameworks */,
-				CEF7C6D111C64B94F9D26520532F7E1C /* CFNetwork.framework in Frameworks */,
-				DEFA1D2ADA3C2904C0122445ED5AFC1D /* Cocoa.framework in Frameworks */,
-				CA5D83BB2C8A972D802078117A3EC723 /* CoreFoundation.framework in Frameworks */,
-				0DD0EB99AC80DCF4BCB200C78F416304 /* SystemConfiguration.framework in Frameworks */,
+				C1246DDEC9C6ADF2C22019C1DC472B3E /* AudioToolbox.framework in Frameworks */,
+				87ED4C1568617695F7F44BF035B27697 /* AudioUnit.framework in Frameworks */,
+				066ADB44E6FA8C50306CE4AE6F72D8BC /* CFNetwork.framework in Frameworks */,
+				FB2DB3F8AD50FBB24B4C1B431F432465 /* Cocoa.framework in Frameworks */,
+				3C3338455C9649A6B8904263A25EF11D /* CoreFoundation.framework in Frameworks */,
+				EB172CEA328979ACAE2733A6C2170175 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		864B37F4EB8561C4C65A12E718871D15 /* Frameworks */ = {
+		5FA10ABA184C708C0256140F582194FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67382151F032027997DAB73DC84472A7 /* Cocoa.framework in Frameworks */,
+				843EE7E22FBFF7522240CD03CF45A96B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86631BCDD6995CFD2A8A7716F3673282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F3FD9096F43B73CBB52EF0E1CCF73E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3210D0681D9BE23D74920F3396916A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCE9D07B240C72EFF508C654695E48E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0291E7FFC7C75E4A79E3803113A26BAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA97103AD323C8ABD52383277B23625 /* Info.plist */,
+				76C415DB0B3DC8CAEC28A25DB11418C7 /* SwiftyJSON.modulemap */,
+				D10EE208A14F0C1D6D56BD1C5F5B7701 /* SwiftyJSON.xcconfig */,
+				AC88B6F8D83E473E47A8CF2EA47F89E0 /* SwiftyJSON-dummy.m */,
+				820CD70D952EA9AB8542645711F99753 /* SwiftyJSON-prefix.pch */,
+				172AAFDCD6C8509A336DE952341F05B3 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
 		029A70C52ECE4EEAA3E4A94413D30608 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,44 +227,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1924CDBEFD8BA35C60153FB370499920 /* StreamingKit */ = {
+		15CE116FB4A51745DD1E1AB9615FEC79 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				FD11F8B9D5DFF074BA7C2A1D8D6CD017 /* NSMutableArray+STKAudioPlayer.h */,
-				1DD3D6C91EADFC882F537BE160FA2629 /* NSMutableArray+STKAudioPlayer.m */,
-				DE6576EBF69451CF9844FEEB95DB404C /* STKAudioPlayer.h */,
-				D2B9F0397C31AD16ED20A04A31767F1D /* STKAudioPlayer.m */,
-				7FBD4122083B3A9FC7D8C57C94E33BBE /* STKAutoRecoveringHTTPDataSource.h */,
-				00B3B9A4608A76176410C4720DE21A0E /* STKAutoRecoveringHTTPDataSource.m */,
-				EE290936E47B9E21D2C513D982819DB2 /* STKCoreFoundationDataSource.h */,
-				1FE663B0781343F5B1C64A344AA436EB /* STKCoreFoundationDataSource.m */,
-				5C35E8837A8CE796877C75FFE87FF7E1 /* STKDataSource.h */,
-				54C49AA4B8477911682AEBA99E10A7FE /* STKDataSource.m */,
-				EB11088A856D5AADF52DCA2489577430 /* STKDataSourceWrapper.h */,
-				B1820536FBE2F2A469B4815FEF2138F9 /* STKDataSourceWrapper.m */,
-				CE30F8C8BF24F886D00F998873DAC70B /* STKHTTPDataSource.h */,
-				79138790A5C8F0284A90EC92CC1F3BB2 /* STKHTTPDataSource.m */,
-				0F34228837D0789E45C01871036D5469 /* STKLocalFileDataSource.h */,
-				5CC9E01CF08568B985FED4DD5A193381 /* STKLocalFileDataSource.m */,
-				2C5BC4013C78608BADA185244C0D568F /* STKQueueEntry.h */,
-				A8A88C5535B7B41AAE5AF46FA93AB130 /* STKQueueEntry.m */,
-				25EB467E0AD1D44D9C0E229F34C7FAE0 /* Support Files */,
+				D6CB2DED7378FA272C30AB2B975FA2B5 /* Alamofire.swift */,
+				8308F14E570B3F7428D65D055A4EBC5A /* Download.swift */,
+				68D783D02B7A43D3DDD05F1DC4B48707 /* Error.swift */,
+				0D100D6E4BEC2C7B7BEF3A1FF32AB410 /* Manager.swift */,
+				05D107091C6B6982D0B786BE006271F9 /* MultipartFormData.swift */,
+				EAF3991ADE5FD69A71DDBB779F763E20 /* NetworkReachabilityManager.swift */,
+				509086D34AA6A5B68F5609ED9479F739 /* Notifications.swift */,
+				AB84B4834CF1691AA969853EBFA3CC27 /* ParameterEncoding.swift */,
+				A91659349D15C448CB007BC19F3A641D /* Request.swift */,
+				DD17AF643DBEBB99D2EFC334F28631A6 /* Response.swift */,
+				CE9559F92C4219BECAB0010F4EB5C5BB /* ResponseSerialization.swift */,
+				A500A3B9BB553AC7D3EEB2DC3E2A6935 /* Result.swift */,
+				C81E99C2F8ED1AA40DC045450733FEB9 /* ServerTrustPolicy.swift */,
+				25D0BC33E4429FECA7D497567FADC3BE /* Stream.swift */,
+				BDFE1F0094DDA824A1E28640C9328286 /* Timeline.swift */,
+				4FACF2B1143A114168B849DE17505723 /* Upload.swift */,
+				04A7EA56BF266EDF39A4F31BAE49CFDD /* Validation.swift */,
+				635D8896C517B871FA33CDAC7A4456F3 /* Support Files */,
 			);
-			path = StreamingKit;
-			sourceTree = "<group>";
-		};
-		25EB467E0AD1D44D9C0E229F34C7FAE0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E59F032E4C4D4102586354D4B1BFAEB /* Info.plist */,
-				F0355DCFEF98D602139A2E6D30185195 /* StreamingKit.modulemap */,
-				0875F777F58E7EB2EEAB178452DD17CA /* StreamingKit.xcconfig */,
-				CB932112EB065C14FA9DF65647966449 /* StreamingKit-dummy.m */,
-				C05CD62E150CFB77A335717364AF33D3 /* StreamingKit-prefix.pch */,
-				76CF349AC563DEFDF339490C9F975C97 /* StreamingKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/StreamingKit";
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		492DF5F1392C45E4AE707E3F87F32D6A /* Targets Support Files */ = {
@@ -175,21 +260,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		55E1F0F4226335DD634B98B88E86D0F9 /* Pods */ = {
+		4A8714BC8606651829A0BD1A59AD50E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1924CDBEFD8BA35C60153FB370499920 /* StreamingKit */,
+				15CE116FB4A51745DD1E1AB9615FEC79 /* Alamofire */,
+				B55EDA3B5062A41D106239BA5B7DA013 /* StreamingKit */,
+				FD7CAB4EABD7B7916E648881929FD274 /* SwiftyJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		709C97C02A949C501CE23243A308A85B /* Products */ = {
+		635D8896C517B871FA33CDAC7A4456F3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70A97DAD40E958B1F5E22A168BDBB331 /* Pods_DoubanFM.framework */,
-				59332E40BF4B1DABA7F576296E92E568 /* StreamingKit.framework */,
+				23DDC3759919D7C764053F96B11CA597 /* Alamofire.modulemap */,
+				CCBDA55A664230671A65E52729742DCA /* Alamofire.xcconfig */,
+				174359FB95BEA4ACED6123A4FEA8113B /* Alamofire-dummy.m */,
+				2C15E4979C4CD856F640462D85F2C14D /* Alamofire-prefix.pch */,
+				271074606699A10EF836CF7CD70561CB /* Alamofire-umbrella.h */,
+				56F1FF26546B94D74526E6C35C42553E /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -197,10 +289,24 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				029A70C52ECE4EEAA3E4A94413D30608 /* Frameworks */,
-				55E1F0F4226335DD634B98B88E86D0F9 /* Pods */,
-				709C97C02A949C501CE23243A308A85B /* Products */,
+				4A8714BC8606651829A0BD1A59AD50E0 /* Pods */,
+				9AEB9541CDCE7B0329F7C409A50BB247 /* Products */,
 				492DF5F1392C45E4AE707E3F87F32D6A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7EBA373762AF776DA23ECB795010F991 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				513D19CF235D95B9716883FBDDAF2F0A /* Info.plist */,
+				0CE9CEFBD740CE262522670663B2E14B /* StreamingKit.modulemap */,
+				C7089F2C37708895919D61BBED4E55CD /* StreamingKit.xcconfig */,
+				C68EDAF863756E393ADA530C837EA4CA /* StreamingKit-dummy.m */,
+				83279E5719E63534A876222BCFD796F5 /* StreamingKit-prefix.pch */,
+				BDC57609D842F233CA2EBE01184A50CA /* StreamingKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StreamingKit";
 			sourceTree = "<group>";
 		};
 		91DCBE5ABA58A073CDB42651CE016867 /* OS X */ = {
@@ -214,6 +320,17 @@
 				800E4DF314478B09D497AC282C415801 /* SystemConfiguration.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		9AEB9541CDCE7B0329F7C409A50BB247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69FB212F82E5C3C31C0A48CDA5896279 /* Alamofire.framework */,
+				0C4AB90F38977BB70DEA7188A9796652 /* Pods_DoubanFM.framework */,
+				20A3F5C84937E76B56923F9081201723 /* StreamingKit.framework */,
+				E54C30EE1D3FD6E0B1AEAB404519C7F9 /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A4E68533A57D42EDB81707F086B38309 /* Pods-DoubanFM */ = {
@@ -234,62 +351,129 @@
 			path = "Target Support Files/Pods-DoubanFM";
 			sourceTree = "<group>";
 		};
+		B55EDA3B5062A41D106239BA5B7DA013 /* StreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B5A3449834EE72930573F49BA759EC4 /* NSMutableArray+STKAudioPlayer.h */,
+				B54ABFB9D6C5C2FA78A326081C211004 /* NSMutableArray+STKAudioPlayer.m */,
+				55EFC318C87506690F72FC2F46D0D999 /* STKAudioPlayer.h */,
+				7CC75F8D47FF0A10E37981188434A68A /* STKAudioPlayer.m */,
+				129F4CB464C51FC573EC001C6E5110E6 /* STKAutoRecoveringHTTPDataSource.h */,
+				2FA9CB296040C3B9928CFB43924FDEC0 /* STKAutoRecoveringHTTPDataSource.m */,
+				4AC7989C1293A99A9AB6B9DD76F6CD4A /* STKCoreFoundationDataSource.h */,
+				5D55DA5364065826507C6C45C1BF52BE /* STKCoreFoundationDataSource.m */,
+				E8CF96DD4DCC41200F4FCC22426CF525 /* STKDataSource.h */,
+				A70F8D00B08D389E467A1FCA1AD1F0DF /* STKDataSource.m */,
+				EBBA716F5E1EE232B26C00F878E68D2D /* STKDataSourceWrapper.h */,
+				6270AE6F5D0186D5DD35927A239A78AF /* STKDataSourceWrapper.m */,
+				81DC79238A3B4B924F5CFF96374EDBE2 /* STKHTTPDataSource.h */,
+				3543152C6B34CF5A927F30B3D1451351 /* STKHTTPDataSource.m */,
+				E9598793B8FF3FE69816398B45F0771F /* STKLocalFileDataSource.h */,
+				7A4827B5613C7FC1B18311876A5D8810 /* STKLocalFileDataSource.m */,
+				4B8D2C19779CBCCAE298ADFA2E9426EF /* STKQueueEntry.h */,
+				434D5919AE34F0DFE4886F6C8083A6AE /* STKQueueEntry.m */,
+				7EBA373762AF776DA23ECB795010F991 /* Support Files */,
+			);
+			path = StreamingKit;
+			sourceTree = "<group>";
+		};
+		FD7CAB4EABD7B7916E648881929FD274 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FCB55CFC9983F8509CA5FBC15EC90034 /* SwiftyJSON.swift */,
+				0291E7FFC7C75E4A79E3803113A26BAE /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C2A619CB5A415B8199053E557ED1C371 /* Headers */ = {
+		03A1FA433AC3BCA336E86A8FB8D0856F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792CC9760B61F1CC812B13D0C958686C /* Pods-DoubanFM-umbrella.h in Headers */,
+				2DEDC029CEC5CE19506FFC33F384D1B8 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DADF80384D53598BED0A11C5B164363E /* Headers */ = {
+		D452A294A3630EED49E2B9722E61CB35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA247C1F11080C8A3DA10B6CECDC0853 /* NSMutableArray+STKAudioPlayer.h in Headers */,
-				36AC674627100B0A550B0E3E26DE6952 /* STKAudioPlayer.h in Headers */,
-				1B0AEB924DDBC893B45E8FE830234876 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
-				60A2B16A4AD3D73C5D1CE1DD5D741917 /* STKCoreFoundationDataSource.h in Headers */,
-				CE06B9B727D0448C319112D0C8D69E1B /* STKDataSource.h in Headers */,
-				C92E2A0E3256997CD7DE4ED9C0D2EB2F /* STKDataSourceWrapper.h in Headers */,
-				E4766E944BAF18A76798ACE6B0B8CCFE /* STKHTTPDataSource.h in Headers */,
-				0FCFBEBCDBC51550DFB2E6C1A3CBB6E9 /* STKLocalFileDataSource.h in Headers */,
-				3B7A71CE7D29C833487AE261CE843593 /* STKQueueEntry.h in Headers */,
-				E957066016533071100EE825A8877A50 /* StreamingKit-umbrella.h in Headers */,
+				2B9568880AC2F479700533EAC0FF447B /* Pods-DoubanFM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D5B2F0BE82D446FEB6D1709B718DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D958C90E2D8C13343826F377672CD5 /* NSMutableArray+STKAudioPlayer.h in Headers */,
+				8016C5B7C50BF8EAE89E389177917796 /* STKAudioPlayer.h in Headers */,
+				98F5A6CBBE2D6A006D493A1F31F71791 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
+				76D3412645EF953965F05AC62BB48AB9 /* STKCoreFoundationDataSource.h in Headers */,
+				9C142FF1A2F3690E32D93B6DBF27386C /* STKDataSource.h in Headers */,
+				3888DF353F03EF35D93BBCE43ADAC871 /* STKDataSourceWrapper.h in Headers */,
+				EA169F7223BB7F0D4F1E5E173A3EFF12 /* STKHTTPDataSource.h in Headers */,
+				EC326E3F51E48C7C141C3D6256CFB3F1 /* STKLocalFileDataSource.h in Headers */,
+				92926631395D95F77234F93C5943B577 /* STKQueueEntry.h in Headers */,
+				2849D0FCB5CEF993C96E0652DDB00C53 /* StreamingKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		43C437F3398496280C7268BE2213C3FD /* Pods-DoubanFM */ = {
+		51D57634A23B5FEEAC8A8CFE4A0C4ED0 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87CD0ABE6A249D4AE6678B8AD5DCD250 /* Build configuration list for PBXNativeTarget "Pods-DoubanFM" */;
+			buildConfigurationList = 297BC663A00ED9EAC1BFA234AC376117 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				FD6CFEFD8DEDD6E5709311023EC397C8 /* Sources */,
-				864B37F4EB8561C4C65A12E718871D15 /* Frameworks */,
-				C2A619CB5A415B8199053E557ED1C371 /* Headers */,
+				65079CA8F6008F413C862B13C188D406 /* Sources */,
+				5FA10ABA184C708C0256140F582194FA /* Frameworks */,
+				03A1FA433AC3BCA336E86A8FB8D0856F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BBD675CCB7EC75649ED2545EDB31162D /* PBXTargetDependency */,
 			);
-			name = "Pods-DoubanFM";
-			productName = "Pods-DoubanFM";
-			productReference = 70A97DAD40E958B1F5E22A168BDBB331 /* Pods_DoubanFM.framework */;
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E54C30EE1D3FD6E0B1AEAB404519C7F9 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CA78113AF4A28917A6E2F3CF72E3ECDA /* StreamingKit */ = {
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29F8BE15829CA29EB35CE0EC50F345AA /* Build configuration list for PBXNativeTarget "StreamingKit" */;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				8CD61C825E067EE581F216E19061C5C3 /* Sources */,
-				1CCD241EC2B41D9F55D27FF1ACD0976F /* Frameworks */,
-				DADF80384D53598BED0A11C5B164363E /* Headers */,
+				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
+				86631BCDD6995CFD2A8A7716F3673282 /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 69FB212F82E5C3C31C0A48CDA5896279 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB61097019B58230CC93576ADADECD83 /* StreamingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74CAD0259B09DD9873F05A7B38E183F /* Build configuration list for PBXNativeTarget "StreamingKit" */;
+			buildPhases = (
+				62968756C39E56086E13483415931450 /* Sources */,
+				5CFB1524D2694C6FC4426478D5F70A37 /* Frameworks */,
+				E7D5B2F0BE82D446FEB6D1709B718DE0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -297,7 +481,27 @@
 			);
 			name = StreamingKit;
 			productName = StreamingKit;
-			productReference = 59332E40BF4B1DABA7F576296E92E568 /* StreamingKit.framework */;
+			productReference = 20A3F5C84937E76B56923F9081201723 /* StreamingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDD796B8C185399F66B6FD872710CDEE /* Pods-DoubanFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D410D07BFDBEBE9CA16648A2FC73A6 /* Build configuration list for PBXNativeTarget "Pods-DoubanFM" */;
+			buildPhases = (
+				88E390886CBA9717A8C6B8C8F61437DD /* Sources */,
+				F3210D0681D9BE23D74920F3396916A1 /* Frameworks */,
+				D452A294A3630EED49E2B9722E61CB35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE9CD4A2BD2F7F81046757DA1A7EE2C /* PBXTargetDependency */,
+				1201295B7E9A7622831E9C5BA3464222 /* PBXTargetDependency */,
+				0A9CB2C85468EC3AF5137DFC6F927656 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoubanFM";
+			productName = "Pods-DoubanFM";
+			productReference = 0C4AB90F38977BB70DEA7188A9796652 /* Pods_DoubanFM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,55 +521,248 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 709C97C02A949C501CE23243A308A85B /* Products */;
+			productRefGroup = 9AEB9541CDCE7B0329F7C409A50BB247 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43C437F3398496280C7268BE2213C3FD /* Pods-DoubanFM */,
-				CA78113AF4A28917A6E2F3CF72E3ECDA /* StreamingKit */,
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				DDD796B8C185399F66B6FD872710CDEE /* Pods-DoubanFM */,
+				BB61097019B58230CC93576ADADECD83 /* StreamingKit */,
+				51D57634A23B5FEEAC8A8CFE4A0C4ED0 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CD61C825E067EE581F216E19061C5C3 /* Sources */ = {
+		62968756C39E56086E13483415931450 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96511D5C6F29DA4BB95F9C4269B2035 /* NSMutableArray+STKAudioPlayer.m in Sources */,
-				0D4D7C23BADF82A5A26EC95366B4D750 /* STKAudioPlayer.m in Sources */,
-				65E086FBBB80F609C7ED167AC1D554B3 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
-				4BA28A90E2A5F874AD1D2FA906A230DD /* STKCoreFoundationDataSource.m in Sources */,
-				34EEE1889BBEC2A7E6AE751BD40662CE /* STKDataSource.m in Sources */,
-				A7C1EA6CDF0A8DC7DECBAC3840A83B14 /* STKDataSourceWrapper.m in Sources */,
-				AA959F1C256F825FBA9D924CB1BADC12 /* STKHTTPDataSource.m in Sources */,
-				877E23245CFE6A28B79092235429483B /* STKLocalFileDataSource.m in Sources */,
-				344DBB08140588E82FD801C848D6229C /* STKQueueEntry.m in Sources */,
-				40898915848D07DDA66BE3DCEA9E6676 /* StreamingKit-dummy.m in Sources */,
+				3A7D8F9FD114D742BF9B35A3721C115D /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				2BD1AB00C2FB942C712772B289323B14 /* STKAudioPlayer.m in Sources */,
+				CDF582B7632DB25CBDBCA4B1479C370A /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				55477E968D89D5F1ADAD575EDC9B5D5C /* STKCoreFoundationDataSource.m in Sources */,
+				BF7C5F04DBF76A8ACBB1E48A7F9F3687 /* STKDataSource.m in Sources */,
+				B4CFDDB36A0176A12CC34AB22AF20F36 /* STKDataSourceWrapper.m in Sources */,
+				A4A111721168D8550B6C4375A88090D4 /* STKHTTPDataSource.m in Sources */,
+				6C6D723BB21E5FCF16E41D0F0FB9C3E7 /* STKLocalFileDataSource.m in Sources */,
+				EA2ED27E179F095B44CEBEDC9369E9E7 /* STKQueueEntry.m in Sources */,
+				086E52A2768690414D146D204D9FED33 /* StreamingKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD6CFEFD8DEDD6E5709311023EC397C8 /* Sources */ = {
+		65079CA8F6008F413C862B13C188D406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D12B565B4A881186725D4EE51415E7 /* Pods-DoubanFM-dummy.m in Sources */,
+				A2422A827B36B12CD33BF4CC95D0EE12 /* SwiftyJSON-dummy.m in Sources */,
+				97364D8288CB8099FC82C811F9A6358D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E390886CBA9717A8C6B8C8F61437DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31495045432FB2A224A8BFF8C65B149D /* Pods-DoubanFM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
+				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
+				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
+				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
+				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
+				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
+				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
+				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
+				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
+				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
+				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
+				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
+				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
+				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
+				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
+				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
+				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BBD675CCB7EC75649ED2545EDB31162D /* PBXTargetDependency */ = {
+		0A9CB2C85468EC3AF5137DFC6F927656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 51D57634A23B5FEEAC8A8CFE4A0C4ED0 /* SwiftyJSON */;
+			targetProxy = 8D0A96CEA628E7156CBECE3923554B06 /* PBXContainerItemProxy */;
+		};
+		1201295B7E9A7622831E9C5BA3464222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StreamingKit;
-			target = CA78113AF4A28917A6E2F3CF72E3ECDA /* StreamingKit */;
-			targetProxy = 2BF904ED88FCB55A976E3ECE03572251 /* PBXContainerItemProxy */;
+			target = BB61097019B58230CC93576ADADECD83 /* StreamingKit */;
+			targetProxy = 08F32AE206BACF653B65E9F713E000B8 /* PBXContainerItemProxy */;
+		};
+		DEE9CD4A2BD2F7F81046757DA1A7EE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = D00091B70050457606B69E9C16352A56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E621D6BF749EDCE77ACBE7C6D464E29 /* Debug */ = {
+		1093603E6FF02C4AC07AD91594F6C101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10EE208A14F0C1D6D56BD1C5F5B7701 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18AC0BB3FBF6B26D8536EA15E7D7877A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7089F2C37708895919D61BBED4E55CD /* StreamingKit.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = StreamingKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2954C8F4277ADCE0A01E46047C9BA5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4806E61BD116A8EE1374E2F686B81E3C /* Pods-DoubanFM.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DoubanFM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoubanFM/Pods-DoubanFM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DoubanFM;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46E818AB8DD1FA4B4D7E9AEC24735CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBDA55A664230671A65E52729742DCA /* Alamofire.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D9B84226B34B4ECC397FF122BC2BB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC39B53826B64CB5739E5268E2F7EFDB /* Pods-DoubanFM.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DoubanFM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoubanFM/Pods-DoubanFM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DoubanFM;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52D4ECB745D1C035F94BD060EE7F6605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,16 +794,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4A19B05E7144B97120D554D7FAD1D5C9 /* Debug */ = {
+		8B6D853B3D78E5499608556D234A9CEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0875F777F58E7EB2EEAB178452DD17CA /* StreamingKit.xcconfig */;
+			baseConfigurationReference = D10EE208A14F0C1D6D56BD1C5F5B7701 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -416,22 +813,23 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = StreamingKit;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5577A3F22A37686E40DB6863D68D476C /* Release */ = {
+		A070F153A04DD66F4E492261894B37FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,47 +856,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C0D9291A0B564936E4BC3B3F010F49D7 /* Release */ = {
+		C08597305C760BEFFBBDF438CFF88032 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4806E61BD116A8EE1374E2F686B81E3C /* Pods-DoubanFM.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-DoubanFM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DoubanFM/Pods-DoubanFM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DoubanFM;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C8BB55E20E66D2EA86BCC2D25AFB3B78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC39B53826B64CB5739E5268E2F7EFDB /* Pods-DoubanFM.debug.xcconfig */;
+			baseConfigurationReference = CCBDA55A664230671A65E52729742DCA /* Alamofire.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -508,27 +875,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-DoubanFM/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DoubanFM/Pods-DoubanFM.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DoubanFM;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E5DB369F4332ECA8E32C20A337100C63 /* Release */ = {
+		C1B63FFA649272DFD7336CF7059978CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0875F777F58E7EB2EEAB178452DD17CA /* StreamingKit.xcconfig */;
+			baseConfigurationReference = C7089F2C37708895919D61BBED4E55CD /* StreamingKit.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,7 +908,7 @@
 				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = StreamingKit;
@@ -557,11 +922,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29F8BE15829CA29EB35CE0EC50F345AA /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
+		297BC663A00ED9EAC1BFA234AC376117 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A19B05E7144B97120D554D7FAD1D5C9 /* Debug */,
-				E5DB369F4332ECA8E32C20A337100C63 /* Release */,
+				8B6D853B3D78E5499608556D234A9CEF /* Debug */,
+				1093603E6FF02C4AC07AD91594F6C101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -569,17 +934,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E621D6BF749EDCE77ACBE7C6D464E29 /* Debug */,
-				5577A3F22A37686E40DB6863D68D476C /* Release */,
+				52D4ECB745D1C035F94BD060EE7F6605 /* Debug */,
+				A070F153A04DD66F4E492261894B37FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87CD0ABE6A249D4AE6678B8AD5DCD250 /* Build configuration list for PBXNativeTarget "Pods-DoubanFM" */ = {
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8BB55E20E66D2EA86BCC2D25AFB3B78 /* Debug */,
-				C0D9291A0B564936E4BC3B3F010F49D7 /* Release */,
+				C08597305C760BEFFBBDF438CFF88032 /* Debug */,
+				46E818AB8DD1FA4B4D7E9AEC24735CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D410D07BFDBEBE9CA16648A2FC73A6 /* Build configuration list for PBXNativeTarget "Pods-DoubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9B84226B34B4ECC397FF122BC2BB05 /* Debug */,
+				2954C8F4277ADCE0A01E46047C9BA5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74CAD0259B09DD9873F05A7B38E183F /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC0BB3FBF6B26D8536EA15E7D7877A /* Debug */,
+				C1B63FFA649272DFD7336CF7059978CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
