@@ -12,12 +12,14 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButton *loginButton;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userSuccessLogin:) name:@"UserLoginSuccessNotification" object:nil];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -25,10 +27,17 @@
 }
 
 - (IBAction)onLogin:(id)sender {
-    LoginController *c = [[LoginController alloc] init];
-    NSWindow *sheet = [NSWindow windowWithContentViewController:c];
-    [sheet setStyleMask:[sheet styleMask] &~ NSResizableWindowMask];
-    [self.window beginCriticalSheet:sheet completionHandler:NULL];
+    DBFMClient *client = [DBFMClient sharedClient];
+    if (!client.haveLogin) {
+        LoginController *c = [[LoginController alloc] init];
+        NSWindow *sheet = [NSWindow windowWithContentViewController:c];
+        [sheet setStyleMask:[sheet styleMask] &~ NSResizableWindowMask];
+        [self.window beginCriticalSheet:sheet completionHandler:NULL];
+    }
+}
+
+- (void)userSuccessLogin: (NSNotification *)notif {
+    [self.loginButton setTitle:[DBFMClient sharedClient].user.user_name];
 }
 
 @end

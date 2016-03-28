@@ -57,6 +57,7 @@ class LoginController: NSViewController {
                     if json["r"].stringValue == "0" {
                         // success
                         DBFMClient.sharedClient.user.updateWithJSON(json)
+                        NSNotificationCenter.defaultCenter().postNotificationName(UserLoginSuccessNotification, object: DBFMClient.sharedClient)
                         self.dismissSheet()
                         return
                     }else {

@@ -73,6 +73,7 @@
 				4261EF921CA9730600F83908 /* libs */,
 				4261EF8B1CA961ED00F83908 /* Client */,
 				4261EF851CA95A1000F83908 /* Login */,
+				4261EF9A1CA9885800F83908 /* Player */,
 				421EC9791CA28CE200A14673 /* AppDelegate.h */,
 				421EC97A1CA28CE200A14673 /* AppDelegate.m */,
 				421EC97F1CA28CE300A14673 /* Assets.xcassets */,
@@ -124,6 +125,13 @@
 				4261EF951CA9730600F83908 /* MBProgressHUD.m */,
 			);
 			path = HUDOSX;
+			sourceTree = "<group>";
+		};
+		4261EF9A1CA9885800F83908 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Player;
 			sourceTree = "<group>";
 		};
 		4679FAD6EF8C1A357D75E12D /* Pods */ = {

@@ -23,14 +23,28 @@ class User: NSObject {
         self.user_name = dict["user_name"].string
         self.email = dict["email"].string
     }
+    
+    override func isEqual(object: AnyObject?) -> Bool {
+        if let other = object as? User {
+            return self.email == other.email
+        }
+        return false
+    }
 }
 
 class DBFMClient: NSObject {
     static let sharedClient = DBFMClient()
     var user: User!
+    var haveLogin: Bool {
+        get {
+            return self.user.user_id != nil
+        }
+    }
     
     override init() {
         super.init()
         user = User()
     }
 }
+
+let UserLoginSuccessNotification = "UserLoginSuccessNotification"
