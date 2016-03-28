@@ -13,8 +13,8 @@
 		421EC9831CA28CE300A14673 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421EC9811CA28CE300A14673 /* MainMenu.xib */; };
 		4261EF891CA95A4E00F83908 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF871CA95A4E00F83908 /* LoginController.swift */; };
 		4261EF8A1CA95A4E00F83908 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4261EF881CA95A4E00F83908 /* LoginController.xib */; };
-		4261EF8E1CA9621500F83908 /* DBFMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF8D1CA9621500F83908 /* DBFMClient.m */; };
 		4261EF961CA9730600F83908 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF951CA9730600F83908 /* MBProgressHUD.m */; };
+		4261EF981CA979CE00F83908 /* DBFMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF971CA979CE00F83908 /* DBFMClient.swift */; };
 		DDD0212C055F26E91602173B /* Pods_DoubanFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269ED5BDA0348E5A9EE5CA19 /* Pods_DoubanFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +31,9 @@
 		4261EF861CA95A4E00F83908 /* DoubanFM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubanFM-Bridging-Header.h"; sourceTree = "<group>"; };
 		4261EF871CA95A4E00F83908 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		4261EF881CA95A4E00F83908 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
-		4261EF8C1CA9621500F83908 /* DBFMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFMClient.h; sourceTree = "<group>"; };
-		4261EF8D1CA9621500F83908 /* DBFMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFMClient.m; sourceTree = "<group>"; };
 		4261EF941CA9730600F83908 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		4261EF951CA9730600F83908 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4261EF971CA979CE00F83908 /* DBFMClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFMClient.swift; sourceTree = "<group>"; };
 		A291B9E7EF3CC46C2A08385C /* Pods-DoubanFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,8 +104,7 @@
 		4261EF8B1CA961ED00F83908 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				4261EF8C1CA9621500F83908 /* DBFMClient.h */,
-				4261EF8D1CA9621500F83908 /* DBFMClient.m */,
+				4261EF971CA979CE00F83908 /* DBFMClient.swift */,
 			);
 			name = Client;
 			sourceTree = "<group>";
@@ -270,7 +268,7 @@
 				4261EF891CA95A4E00F83908 /* LoginController.swift in Sources */,
 				4261EF961CA9730600F83908 /* MBProgressHUD.m in Sources */,
 				421EC97B1CA28CE200A14673 /* AppDelegate.m in Sources */,
-				4261EF8E1CA9621500F83908 /* DBFMClient.m in Sources */,
+				4261EF981CA979CE00F83908 /* DBFMClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
