@@ -11,6 +11,7 @@
 		421EC97E1CA28CE300A14673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421EC97D1CA28CE300A14673 /* main.m */; };
 		421EC9801CA28CE300A14673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421EC97F1CA28CE300A14673 /* Assets.xcassets */; };
 		421EC9831CA28CE300A14673 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421EC9811CA28CE300A14673 /* MainMenu.xib */; };
+		425A61231CAA19D800EFAE0F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A61221CAA19D800EFAE0F /* Common.swift */; };
 		4261EF891CA95A4E00F83908 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF871CA95A4E00F83908 /* LoginController.swift */; };
 		4261EF8A1CA95A4E00F83908 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4261EF881CA95A4E00F83908 /* LoginController.xib */; };
 		4261EF961CA9730600F83908 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4261EF951CA9730600F83908 /* MBProgressHUD.m */; };
@@ -28,6 +29,7 @@
 		421EC97F1CA28CE300A14673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		421EC9821CA28CE300A14673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		421EC9841CA28CE300A14673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425A61221CAA19D800EFAE0F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4261EF861CA95A4E00F83908 /* DoubanFM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubanFM-Bridging-Header.h"; sourceTree = "<group>"; };
 		4261EF871CA95A4E00F83908 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		4261EF881CA95A4E00F83908 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		421EC9781CA28CE200A14673 /* DoubanFM */ = {
 			isa = PBXGroup;
 			children = (
+				425A61211CAA19CC00EFAE0F /* Common */,
 				4261EF921CA9730600F83908 /* libs */,
 				4261EF8B1CA961ED00F83908 /* Client */,
 				4261EF851CA95A1000F83908 /* Login */,
@@ -90,6 +93,14 @@
 				421EC97D1CA28CE300A14673 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425A61211CAA19CC00EFAE0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				425A61221CAA19D800EFAE0F /* Common.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 		4261EF851CA95A1000F83908 /* Login */ = {
@@ -276,6 +287,7 @@
 				4261EF891CA95A4E00F83908 /* LoginController.swift in Sources */,
 				4261EF961CA9730600F83908 /* MBProgressHUD.m in Sources */,
 				421EC97B1CA28CE200A14673 /* AppDelegate.m in Sources */,
+				425A61231CAA19D800EFAE0F /* Common.swift in Sources */,
 				4261EF981CA979CE00F83908 /* DBFMClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

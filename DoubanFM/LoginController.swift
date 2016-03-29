@@ -14,9 +14,7 @@ class LoginController: NSViewController {
     
     var email = ""
     var password = ""
-    
-    @IBOutlet weak var infoLabel: NSTextField!
-    
+
     deinit {
         print("\(LoginController.self): deinit")
     }
@@ -65,8 +63,7 @@ class LoginController: NSViewController {
                     }
                 }
             }// isSuccess
-            self.infoLabel.hidden = false
-            self.infoLabel.stringValue = errmsg
+            NSTextField.showHUDInView(self.view, text: errmsg)
         }// response
     }// beginLogin
 }
